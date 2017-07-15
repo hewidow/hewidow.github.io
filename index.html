@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="en-us" style="overflow-x:visible;">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/github-btn.css">
+	<link rel="stylesheet" type="text/css" href="css/fold.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="images/ali.ico">
+	<link rel="apple-touch-icon" href="images/ali.png">
+	<title>The Widow</title>
+  </head>
+<!-- fold-btn style -->
+<style>
+ul,li,div,a{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-decoration:none;
+	clear: both;
+	}
+#demo2 ul li a{
+cursor:pointer;
+transition:0.3s;
+color:white;
+}
+#demo2 ul li a:hover {
+	text-decoration: none;
+	color:red;
+}
+#demo2{
+	width:100%;
+	height:50px;
+	clear:both;
+}
+#demo2 ul li{
+	position:relative;
+	float:left;
+	list-style:none;
+	width:100%;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	background:#000;
+}
+#demo2 ul li a:before{
+	content:"[";
+	margin-right:10px;
+	transform:translateX(20px);
+	-webkit-transform:translateX(20px);
+	-moz-transform:translateX(20px);
+	-ms-transform:translateX(20px);
+	color: red
+}
+#demo2 ul li a:after{
+	content:"]";
+	margin-left:10px;
+	transform:translateX(-20px);
+	-webkit-transform:translateX(-20px);
+	-moz-transform:translateX(-20px);
+	-ms-transform:translateX(-20px);
+	color: red
+}
+#demo2 ul li a:before,#demo2 ul li a:after{
+	display:inline-block;
+	opacity:0;
+	transition:transform 0.3s, opacity 0.2s;
+	-moz-transition:transform 0.3s, opacity 0.2s;
+	-webkit-transition:transform 0.3s, opacity 0.2s;
+	-ms-transition:transform 0.3s, opacity 0.2s;
+}
+#demo2 ul li a:hover::before,#demo2 ul li a:hover::after,#demo2 ul li a:focus::before,#demo2 ul li a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+</style>
+<!-- fold-btn style end -->
+  <body>
+    <section class="page-header">
+			<h1 class="project-name">o(*≧▽≦)ツ┏━┓拍桌狂笑</h1>
+		<font style="color:red;">建议ios用户使用Safari浏览本网页,点击<img src="images/share-get-up.png">再点击<i class="fa fa-plus-square" aria-hidden="true" style="color:white;"></i>添加到主屏幕,方便再次浏览小站</font>
+    </section>
+<!-- fold -->
+   <script src="js/fold.js"></script>
+   <script src="js/fold2.js"></script>
+   <script src="js/search.js"></script>
+<ul id="accordion" class="accordion">
+ <li>
+  <div class="link"><i class="disappear">点我点我～</i><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+  <ul class="submenu">
+   <div id="demo2">
+    <ul>
+<!-- search -->
+<li style="text-align:center;">
+<form action="https://www.baidu.com/baidu" target="_blank"><!-- form中onsubmit="return baiduWithHttps(this)" -->
+<i class="fa fa-search" aria-hidden="true">&nbsp;</i>
+<input type="text" placeholder="请输入关键词搜索" name="word" oninput="searchAppear()" onblur="searchAppear2()" onfocus="searchAppear3()" class="search-border" id="searchhh"><!-- input中onfocus="checkHttps()" -->
+<input class="fold-button" id="searchButton" type="submit" value="&nbsp;&nbsp;百度N下&nbsp;&nbsp;">
+<input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+</form>
+<script>
+/*
+    function checkHttps () {
+        BaiduHttps.useHttps();    
+    };//本来可以直接输网址进网站的，后来这个功能被我删废了，也懒得去搞了
+    function baiduWithHttps (formname) {
+        var data = BaiduHttps.useHttps();
+        if (data.s === 0) {
+            return true;
+        }
+        else {
+            formname.action = 'https://www.baidu.com/baidu' + '?ssl_s=1&ssl_c' + data.ssl_code;
+            return true;
+        }
+    };
+*/
+</script>
+</li>
+<!-- search end -->
+          <li><a href="music/index.html"><img src="images/music.png" align="absmiddle">Music</a></li>
+		  <li><a href="http://hewidow.top/"><img src="images/ali2.png" align="absmiddle">Widow's Blog</a></li>
+          <li><a href="http://ywhsinst.org/"><img src="images/cropped.png" align="absmiddle">YWHS-INST</a></li>
+		  <li><a href="overwatch/index.html"><img src="images/ow.png" align="absmiddle">Overwatch</a></li>
+		 <!--
+          <li><a href="android/android.html"><img src="images/android.png" align="absmiddle">Android</a></li>
+		  <li><a href="http://wpa.qq.com/msgrd?v=3&uin=844969710&site=qq&menu=yes"><img src="images/qq.png" align="absmiddle">My QQ</a></li>
+		  -->
+		  <li><a href="https://github.com/844969710/heguangfu"><img src="images/github.png" align="absmiddle">My Github</a></li>
+		  <li><a href="404.html">没了</a></li>
+        </ul>
+   </div>
+  </ul>
+ </li>
+</ul>
+<!-- fold end -->
+<!-- main -->
+<script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/music.js"></script>
+<div style="float:left;padding:2rem 0rem;">
+	<ul class="biaoqian">
+		<li><a href="#shiping">●&nbsp;Widow视频</a></li>
+		<li><a href="#FlashClock">●&nbsp;Flash钟</a></li>
+		<li><a href="#musicplayer">●&nbsp;网易云音乐播放器</a></li>
+		<li><a href="overwatch/owlog.txt">●&nbsp;更新日志</a></li>
+	</ul>
+<iframe id="musicplayer" class="musicplayer" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=32571002&auto=1&height=430"></iframe>
+</div>
+<!--如需改src，则需同步js里的src-->
+   <section class="main-content">
+	   <div id="shiping">
+		 <video src="videos/widow.mp4" autoplay="autoplay" width="100%" poster="images/orz.jpg" preload="auto" controls="controls" loop="loop">
+		 您的浏览器不支持 video 标签。
+		 </video>
+	   </div>
+<!-- flash钟 -->
+<div id="FlashClock">
+		 <script language="javascript">AC_FL_RunContent = 0;</script>
+		 <script src="flash/AC_RunActiveContent.js" language="javascript"></script>
+		 <script language="javascript">
+	if (AC_FL_RunContent == 0) {
+		alert("此页需要 AC_RunActiveContent.js");
+	} else {
+		AC_FL_RunContent(
+			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+			'width', '100%',
+			'height', '500',
+			'src', 'flash/Widow',
+			'quality', 'high',
+			'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+			'align', 'middle',
+			'play', 'true',
+			'loop', 'true',
+			'scale', 'showall',
+			'wmode', 'transparent',
+			'devicefont', 'false',
+			'bgcolor', '#ffffff',
+			'id', 'FlashClock',
+			'menu', 'true',
+			'allowFullScreen', 'false',
+			'allowScriptAccess','sameDomain',
+			'movie', 'flash/Widow',
+			'salign', '',
+			'style', 'background:url(images/clock.jpg);background-size: cover; -moz-background-size: cover;background-position: center center;'
+			); //end AC code
+	}
+</script>
+</div>
+<p style="text-indent: 2em;">无聊在技术课上做的钟，还从学校偷了个Adobe Flash CS3 Profressional，回家继续做，在家里有网络方便多了。(ios用户可能看不了，当然下个支持flash的浏览器也可以看到，其他用户看不了就装个<a href="https://get2.adobe.com/cn/flashplayer/">Adobe Flash Player</a>，再不行然后浏览器里启用插件。Adobe Flash(1996-2015))。</p>
+<p>◆Flash钟源文件：<a href="flash/Widow.fla">Widow.fla</a></p>
+<!-- flash钟 end -->
+<div>
+	<iframe id="musicplayer2" class="musicplayer2" frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=450 src="//music.163.com/outchain/player?type=0&id=32571002&auto=1&height=430"></iframe>
+</div>
+<!--网易云音乐播放器本地看不到，发布后可见-->
+	<p style="text-indent: 2em;" >QQ音乐我没有找到外链播放器，只能用网易云音乐的，而可怜的我没有网易云音乐的自己的歌单，所以拿了别人的歌单<span style="color:red;">(有些点不了的歌是因为版权问题无法播放)</span>，不知道好不好听...另外想要知道我的品味的人可以去<a href="http://hewidow.top">我的博客Widow's Blog</a>看看，有我自己的QQ音乐的歌单的播放器。</p>
+	<p>Tip:请不要随意改变浏览器窗口大小哦，要不然有奇妙的事情发生哦哦哦～～～</p>
+		 <p>*若有侵犯版权，请联系QQ<a href="http://wpa.qq.com/msgrd?v=3&uin=844969710&site=qq&menu=yes" class="qq">844969710</a></p>
+   </section>
+<!-- main end -->
+<!-- footer -->
+      <footer class="site-footer" style="float:center;clear:both;">
+      <span class="site-footer-owner" style="text-align:center;">By&nbsp;&nbsp;<font color="green"><del>Widow</del></font></span>
+      <span class="site-footer-owner" style="text-align:center;"><font color="black" size="2px">友链：</font><a href="http://ywhsinst.org/"><img src="images/cropped2.png" align="absmiddle"><font color="grey" size="2px">YWHS-INST</font></a></span>
+      </footer>
+<!-- footer end -->
+  </body>
+</html>

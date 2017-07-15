@@ -1,0 +1,101 @@
+.search-border , .fold-button , .fa.fa-search {
+  vertical-align:middle;
+}
+.fa.fa-search {
+  padding-left: 40px;
+}
+.search-border {
+  color: white;
+  font-size: auto;
+  background: transparent;
+  position: relative;
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all 2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+}
+.search-border:focus + .fold-button {
+  cursor: pointer;
+}
+.search-border:focus {
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all 2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+  outline: none;
+  color: white;
+  border-color: deepskyblue; 
+}
+.search-border::-webkit-input-placeholder {
+  color: #5E6C77;
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all 2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+}
+.search-border:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.search-border::-moz-placeholder {
+  color: #5E6C77;
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all 2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+}
+.search-border:focus::-moz-placeholder {
+  opacity: .5;
+}
+.search-border:-ms-input-placeholder {
+  color: #5E6C77;
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all 2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+}
+.search-border:focus:-ms-input-placeholder {
+  opacity: .5;
+}
+.fold-button {
+  background: deepskyblue;
+  color: white;
+  width: auto;
+  height: 40px;
+  margin-left: -4.3px;
+  position: relative;
+  border: 1px solid deepskyblue;
+  font-size: auto;
+  transition: all 2s;
+  -moz-transition: all 2s; /* Firefox 4 */
+  -webkit-transition: all  2s; /* Safari 和 Chrome */
+  -o-transition: all 2s; /* Opera */
+  border-radius: 0px;
+  opacity: 0;
+  cursor: default;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/*淡入动画in*/
+@keyframes fade-in {
+    0% {opacity: 0;}/*初始状态 透明度为0*/
+    50% {opacity: 0.5;}/*过渡状态 透明度为0*/
+    100% {opacity: 1;}/*结束状态 透明度为1*/
+}
+@-webkit-keyframes fade-in {/*针对webkit内核*/
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+.fa.fa-search , .search-border {
+    animation: fade-in;/*动画名称*/
+    animation-duration: 0.5s;/*动画持续时间*/
+    -webkit-animation:fade-in 0.5s;/*针对webkit内核*/
+}
+/*淡入动画in End*/
