@@ -222,16 +222,14 @@ a:hover {
   .musicplayer {
     display: block; 
     opacity: 0.8; }
-  .biaoqian {
-    opacity: 0.8;
-    background-color:#F8F8F8;
-  }
   .musicplayer2 {
     display: none; }
   .main-content {
     float: left; }
   .biaoqian ul li a {
       float: none; }
+  .biaoqian {
+    background-color:rgba(248, 248, 248, 0.8);}
     }
 @media screen and (max-width: 85em) {
   .musicplayer {
@@ -246,6 +244,8 @@ a:hover {
       float: left; }
   .biaoqian li {
       display:inline; }
+  .biaoqian {
+      background-color: none; }
     }
 .biaoqian {
   padding-bottom:2rem;
@@ -256,7 +256,7 @@ a:hover {
 }
 .biaoqian li a {
   text-decoration: none;
-  color: darkgray;
+  color: gray;
 }
 .biaoqian li a:hover {
   color: black;
