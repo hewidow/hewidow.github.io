@@ -233,7 +233,9 @@ a:hover {
     background-color: rgba(248, 248, 248, 0.8);}
   .biankuang {
     background: url(../images/widowfm.png);
-    height: 750px;} }
+    height: 750px;}
+    .biaoji {
+      display: block;} }
 @media screen and (max-width: 85em) {
   .musicplayer {
     display: none; } 
@@ -251,9 +253,16 @@ a:hover {
       background-color: none; }
   .biankuang {
       background: none;
-      height: 100%;} }
-
-
+      height: 100%;}
+  .biaoji {
+      display: none;} }
+.biaoji {
+  position:absolute;
+  bottom:0px;
+}
+.biankuang {
+  position: relative;
+}
 .biaoqian li {
   padding-left: 1rem;
   white-space:nowrap;
