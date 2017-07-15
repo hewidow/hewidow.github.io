@@ -218,6 +218,7 @@ a:hover {
   .main-content {
     padding: 2rem 1rem;
     font-size: 1rem; } }
+
 @media screen and (min-width: 85em) {
   .musicplayer {
     display: block; 
@@ -229,8 +230,10 @@ a:hover {
   .biaoqian ul li a {
       float: none; }
   .biaoqian {
-    background-color:rgba(248, 248, 248, 0.8);}
-    }
+    background-color: rgba(248, 248, 248, 0.8);}
+  .biankuang {
+    background: url(../images/widowfm.png);
+    height: 750px;} }
 @media screen and (max-width: 85em) {
   .musicplayer {
     display: none; } 
@@ -243,13 +246,14 @@ a:hover {
   .biaoqian ul li a {
       float: left; }
   .biaoqian li {
-      display:inline; }
+      display: inline; }
   .biaoqian {
       background-color: none; }
-    }
-.biaoqian {
-  padding-bottom:2rem;
-}
+  .biankuang {
+      background: none;
+      height: 100%;} }
+
+
 .biaoqian li {
   padding-left: 1rem;
   white-space:nowrap;
