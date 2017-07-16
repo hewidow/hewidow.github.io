@@ -267,7 +267,9 @@ a {
   color: #fff;
   font-weight: bold;
 }
-
+#playlist li#menu {
+  background: url(../images/jia.png) no-repeat 0 center;
+}
 footer {
   position: relative;
   font-size: 12px;

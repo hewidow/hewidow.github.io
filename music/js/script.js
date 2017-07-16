@@ -11,6 +11,7 @@
 				album:'方舟:生存进化',
 				cover:'img/ARK.gif',
 				mp3:'mp3/Nobody Could Survive(ARK).mp3',
+				menu:'no',
 				ogg:'',
 			},
 			{
@@ -19,6 +20,7 @@
 				album:'本人(光哥)太丑，就不放照片了',
 				cover:'img/1.gif',
 				mp3:'mp3/1.mp3',
+				menu:'no',
 				ogg:'',
 			},
 			{
@@ -27,6 +29,7 @@
 				album:'富强、民主、文明、和谐<br>自由、平等、公正、法治<br>爱国、敬业、诚信、友善',
 				cover:'img/fozhu.jpg',
 				mp3:'mp3/dabeizou.mp3',
+				menu:'no',
 				ogg:'',
 			},
 			{
@@ -35,25 +38,483 @@
 				album:'YY90327',
 				cover:'img/chuhe.gif',
 				mp3:'mp3/chuhe.mp3',
+				menu:'no',
+				ogg:'',
+			},
+			{
+				title:'Overwatch大招语音及彩蛋',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'',
+				menu:'yes',
+				ogg:'',
+			},
+			{
+				title:'我看到你了',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/76-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:"I've got you in my sights",
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/76-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Tactical Visor activated',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/76-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'死吧，死吧',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Reaper-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Die Die Die',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Reaper-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'天降正义',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Pharah-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Justice rains from above',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Pharah-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'龍神の剣を喰らえ',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Genji-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'时间到了',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Tracer-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:"Time's up",
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Tracer-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'午时已到',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Mccree-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:"It's high noon",
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Mccree-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'龙が我が敌を食らう',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Hanzo-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'哔哔哔',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Bastion-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'熔火核心',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Torbjorn-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Molten core',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Torbjorn-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'女士们,先生们,炸弹轮胎滚起来啦',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Junkrat-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Fire in the hole',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Junkrat-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'冻住,不许走',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Mei-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'没人可以躲过我的眼睛',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Widowmaker-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'No one can hide from my sight',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Widowmaker-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'正在启动自毁程序',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/D.VA-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'这太IMBA了',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/D.VA-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Nerf this',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/D.VA-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'随意开火',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Zarya-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Огонь по готовности',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Zarya-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'嗷嗷嗷',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Winston-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'吃我一锤',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Reinharot-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Hammer Down',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Reinharot-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'嗯哈吼嗯哈吼',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Roadhog-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'这太IMBA了',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Pharah-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'来点音乐',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Lúcio-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:"Oh, let's break it down",
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Lúcio-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:"Let's drop the beat",
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Lúcio-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'英雄不朽',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Mercy-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Heroes never die',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Mercy-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'遁入智瞳',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Zenyatta-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Experience tranquility',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Zenyatta-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Pass into the Iris',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Zenyatta-4.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'传送面板上线，我已经打开通路',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Symmetra-1.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'传送面板上线，我们行动会更加迅捷',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Symmetra-2.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'Teleporter online,I have opened the path',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Symmetra-3.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'911',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/911.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'你们这群白痴在干什么,方向错了',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/idiot.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'请~,不要打脸',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/papaface.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'彩虹关',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/Whimsyshire.mp3',
+				menu:'list',
+				ogg:'',
+			},
+			{
+				title:'什么?什么?我不知道,打给我秘书',
+				artist:'',
+				album:'Blizzard',
+				cover:'img/overwatch.jpg',
+				mp3:'mp3/overwatch/what.mp3',
+				menu:'list',
 				ogg:'',
 			}
 			];
-
+			playlistlength=playlist.length-47;
 	// Load playlist加载播放列表
+	$(document).ready(function(){
+		$("li#menu").click(function(){
+			$("li#liebiao").show();
+		});
+		$("li#music").click(function(){
+			$("li#liebiao").hide(500);
+		});
+		$("li#liebiao").click(function(){
+			$("li#menu").css('background','url(css/images/jian.png)  no-repeat 0 center');
+		});
+		$("li#music").click(function(){
+			$("li#menu").css('background','url(css/images/jia.png) no-repeat 0 center');
+		});
+		$("li#menu").click(function(){
+			$("li#menu").css('background','url(css/images/jian.png) no-repeat 0 center');
+		});
+	});
 	for (var i=0; i<playlist.length; i++){
 		var item = playlist[i];
 		if (item.artist=='')
 		{
-			$('#playlist').append('<li>'+item.title+'</li>');
+			if (item.menu=='list') {
+				$('#playlist').append('<li id="liebiao" style="display:none;">'+item.title+'</li>');
+			}
+			else if (item.menu=='yes') {
+				$('#playlist').append('<li id="menu">'+item.title+'</li>');
+			}
+			else {
+				$('#playlist').append('<li id="music">'+item.title+'</li>');
+			}
 		}
 		else
 		{
-			$('#playlist').append('<li>'+item.title+' - '+item.artist+'</li>');
+			$('#playlist').append('<li id="music">'+item.title+' - '+item.artist+'</li>');
 		}
 	}
 
 	var time = new Date(),
-		currentTrack = shuffle === 'true' ? time.getTime() % playlist.length : 0,
+		currentTrack = shuffle === 'true' ? time.getTime() % playlistlength : 0,
 		trigger = false,
 		audio, timeout, isPlaying, playCounts;
 
@@ -121,7 +582,7 @@
 			setVolume(0);
 		}
 	});
-	// Switch track播放列表进度条
+	// Switch track矫正i并播放
 	var switchTrack = function(i){
 		if (i < 0){
 			track = currentTrack = playlist.length - 1;
@@ -140,7 +601,7 @@
 	var shufflePlay = function(){
 		var time = new Date(),
 			lastTrack = currentTrack;
-		currentTrack = time.getTime() % playlist.length;
+		currentTrack = time.getTime() % playlistlength;
 		if (lastTrack == currentTrack) ++currentTrack;
 		switchTrack(currentTrack);
 	}

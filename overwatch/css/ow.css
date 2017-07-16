@@ -78,7 +78,7 @@
        transition: color 0.3s, background-color 0.3s, border-color 0.3s;
        padding: 0.1rem 0.8rem;
    }
- .back:hover {
+   .back:hover {
      color: black;
      background-color: white;
      text-decoration: none;
