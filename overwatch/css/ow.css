@@ -252,7 +252,7 @@
 	background-image:url('../buttons/button_bg.png'), url('../buttons/button_bg.png'), -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 100, from(rgba(202,205,208,1)), to(rgba(202,205,208,0))),-webkit-gradient(linear, 0% 0%, 0% 100%, from(#d1d3d6), to(#9fa5a9));
 }
 .lack:active{
-	/* Moving the button 1px to the bottom when clicked */
+	/* Moving the button 0px to the bottom when disabled */
 	bottom:0px;
 }
 .shuoming:active {
