@@ -78,6 +78,4 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-    repository: https://github.com/hewidow/hewidow.github.io.github.com
-    branch: master
+  type:
